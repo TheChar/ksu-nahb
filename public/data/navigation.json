@@ -1,4 +1,7 @@
 [
-    {"name": "Home", "href": "/"},
-    {"name": "Page 2", "href": "/pg2"}
+    {"name": "Home", "href": "/#top"},
+    {"name": "About Us", "href": "/#about"},
+    {"name": "Core Values", "href": "/#corevalues"},
+    {"name": "Design", "href": "/#design"},
+    {"name": "Outreach", "href": "/#outreach"}
 ]
