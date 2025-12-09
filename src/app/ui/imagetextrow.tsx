@@ -15,7 +15,7 @@ export default function ImageTextRow({ image, alt = "", children, imageLeft = tr
       }`}
     >
       {/* IMAGE */}
-      <div className="relative w-full md:w-1/2 h-64 md:h-80 rounded-2xl overflow-hidden shadow-lg">
+      <div className="relative w-full md:w-1/2 h-80 md:h-110 rounded-2xl overflow-hidden shadow-lg">
         <Image src={image} alt={alt} fill className="object-cover" />
       </div>
 
