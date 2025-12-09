@@ -18,7 +18,7 @@ export default function Outreach() {
         <Splitter />
         <ImageTextRow image='/img/football.png' imageLeft={true}>
         <h3 className='text-center text-4xl mb-5'>Alabama Football</h3>
-            <p className='text-center text-xl'>Few things bring Alabama together like college football, and Wildcat Community Contracting embraces that tradition with pride. Our engagement at Auburn and University of Alabama tailgates places us at some of the state's most iconic cultural scenes. These events bring thousands of passionate fans together, from lifelong locals to traveling families, and provide a natural space for forming professional and casual relationships. By integrating our brand into the traditions that define Alabama, we strengthen our connection to the community and celebrate the spirit that inspires both our work and the people we serve.</p>
+            <p className='text-center text-xl'>Few things bring Alabama together like college football, and Wildcat Community Contracting embraces that tradition with pride. Our engagement at Auburn and University of Alabama tailgates places us at some of the state&apos;s most iconic cultural scenes. These events bring thousands of passionate fans together, from lifelong locals to traveling families, and provide a natural space for forming professional and casual relationships. By integrating our brand into the traditions that define Alabama, we strengthen our connection to the community and celebrate the spirit that inspires both our work and the people we serve.</p>
         </ImageTextRow>
     </div>;
 }

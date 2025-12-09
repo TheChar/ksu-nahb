@@ -23,7 +23,7 @@ export default function ImageCarousel({ images, interval = 3000 }: ImageCarousel
       next();
     }, interval);
     return () => clearInterval(timer);
-  }, [current, interval]);
+  }, [current, interval, next()]);
 
   /* SWIPE HANDLERS */
   const handleTouchStart = (e: TouchEvent<HTMLDivElement>) => {
@@ -111,7 +111,7 @@ export default function ImageCarousel({ images, interval = 3000 }: ImageCarousel
         About this Plan
       </h3>
       <p className="my-3 text-xl">
-      You'll enjoy all 1,999 square feet of this practical Modern Farmhouse plan. With its 3 bedrooms, 3.5 bathrooms, sprawling wraparound rear porch, and functional multipurpose laundry/mudroom, this comfortable home plan is definitely designed to be lived in!  The covered front porch is a friendly welcome to this home. Inside, you'll witness the open floor plan, which flows from the dining room, into the great room and state-of-the-art kitchen. The master suite, also located on the main floor, features a separate tub and shower and large walk-in closet. The first floor is complete with a half bath off the mudroom and a 2-car garage. The upper level of this design offers two secondary bedrooms, each with a walk-in closet and private bath. An unfinished bonus room above the garage can easily be utilized as a 4th bedroom.
+      You&apos;ll enjoy all 1,999 square feet of this practical Modern Farmhouse plan. With its 3 bedrooms, 3.5 bathrooms, sprawling wraparound rear porch, and functional multipurpose laundry/mudroom, this comfortable home plan is definitely designed to be lived in!  The covered front porch is a friendly welcome to this home. Inside, you&apos;ll witness the open floor plan, which flows from the dining room, into the great room and state-of-the-art kitchen. The master suite, also located on the main floor, features a separate tub and shower and large walk-in closet. The first floor is complete with a half bath off the mudroom and a 2-car garage. The upper level of this design offers two secondary bedrooms, each with a walk-in closet and private bath. An unfinished bonus room above the garage can easily be utilized as a 4th bedroom.
       </p>
     </div>
   );

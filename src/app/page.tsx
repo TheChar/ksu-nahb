@@ -3,7 +3,6 @@ import About from '@/app/ui/about';
 import CoreValues from '@/app/ui/corevals';
 import Design from '@/app/ui/design';
 import Outreach from '@/app/ui/outreach';
-import Splitter from '@/app/ui/splitter';
 
 export default function Home() {
   return (
