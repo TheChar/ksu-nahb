@@ -23,7 +23,7 @@ export default function ImageCarousel({ images, interval = 3000 }: ImageCarousel
       next();
     }, interval);
     return () => clearInterval(timer);
-  }, [current, interval, next()]);
+  }, [current, interval, next]);
 
   /* SWIPE HANDLERS */
   const handleTouchStart = (e: TouchEvent<HTMLDivElement>) => {
