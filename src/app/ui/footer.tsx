@@ -13,7 +13,7 @@ export default function Footer() {
                 <span>
                     <DisclaimerLink
                         text='Disclaimer'
-                        disclaimer='The information on this webpage was created for educational purposes only.'
+                        disclaimer='The information on this webpage was created for educational purposes only. Designs were not created by students at Kansas State University.'
                     />
                 </span>
             </div>
